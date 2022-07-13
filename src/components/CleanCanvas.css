@@ -1,0 +1,19 @@
+
+.Trash {
+  display: inline-block;
+  margin: 8px;
+  width: 32px;
+  height: 32px;
+  border: 1px solid #222;
+  background: #555;
+  color: #ccc;
+}
+
+.Trash.active {
+  border-color: #222;
+  background: #333;
+}
+
+.Trash.focus {
+  outline: none;
+}

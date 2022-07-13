@@ -1,0 +1,62 @@
+.tools-container {
+
+}
+
+.tool-button {
+  display: inline-block;
+  margin: 8px;
+  width: 32px;
+  height: 32px;
+  border: 1px solid #222;
+  background: #555;
+  color: #ccc;
+}
+
+.tool-button.active {
+  border-color: #222;
+  background: #333;
+}
+
+.tool-button:focus {
+  outline: none;
+}
+
+.color-popover { position: absolute; }
+
+.MyButton {
+  display: flex;
+  margin-left: 8px;
+  margin-top: 8px;
+  width: 32px;
+  height: 32px;
+  border: 1px solid #222;
+  background: #555;
+  color: #ccc;
+}
+
+.MyButton.active {
+  border-color: #222;
+  background: #333;
+}
+
+.MyButton.focus {
+  outline: none;
+}
+
+  .Trash{
+    display:flex;
+    font: normal normal normal 14px/1 FontAwesome;
+    font-size: inherit;
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+    font-size: 5px;
+  }
+/* style={{
+  // display: inline - block,
+  margin: '5px',
+  width: '32px',
+  height: '32px',
+  border: '1px', solid: '#222',
+  background: '#555',
+  color: '#ccc'
+}} */
